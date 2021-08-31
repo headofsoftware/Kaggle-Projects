@@ -1,1 +1,6 @@
 
+        We developed a model whose characteristics predict whether a water is healthy or not.Here we have created a separate class for data preprocessing.
+  We created a separate class for the model.
+Since there are two different values in the Label column, we first used the KNN algorithm. But we used a different algorithm (Random Forest) because 
+this did not give enough accuracy.But since this algorithm did not give enough accuracy, we rescaled the data, and then we examined the columns and
+removed the columns with high variance.
